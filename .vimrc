@@ -40,4 +40,7 @@ let g:go_highlight_space_tab_error = 1
 let g:go_highlight_operators= 1
 let g:go_highlight_fields = 1 
 let g:go_highlight_types = 1
-colorscheme Revolution 
+
+colorscheme Revolution
+
+set showcmd
