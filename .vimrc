@@ -31,7 +31,9 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 " Unmanaged plugin (manually installed and updated)
 Plug '~/my-prototype-plugin'
 
+Plug 'Shougo/neocomplete'
 " Initialize plugin system
+
 call plug#end()
 
 let g:go_highlight_methods = 1
@@ -43,4 +45,5 @@ let g:go_highlight_types = 1
 
 colorscheme Revolution
 
-set showcmd
+let g:neocomplete#enable_at_startup = 1
+set backspace=indent,eol,start
