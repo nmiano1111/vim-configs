@@ -47,3 +47,4 @@ colorscheme Revolution
 
 let g:neocomplete#enable_at_startup = 1
 set backspace=indent,eol,start
+set number
