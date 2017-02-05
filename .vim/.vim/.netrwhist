@@ -1,5 +1,2 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
-let g:netrw_dirhist_1='/Users/nickmiano/bin'
-let g:netrw_dirhist_2='/Users/nickmiano/log'
-let g:netrw_dirhist_3='/Users/nickmiano/wrk/go/src/github.com/Validic/signals/rules'
+let g:netrw_dirhist_cnt =0

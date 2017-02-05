@@ -29,10 +29,12 @@ Plug 'nsf/gocode', { 'tag': 'v.20150303', 'rtp': 'vim' }
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 
 " Unmanaged plugin (manually installed and updated)
-Plug '~/my-prototype-plugin'
 
 Plug 'Shougo/neocomplete'
 " Initialize plugin system
+Plug 'elixir-lang/vim-elixir'
+
+Plug 'slashmili/alchemist.vim'
 
 call plug#end()
 
@@ -46,5 +48,9 @@ let g:go_highlight_types = 1
 colorscheme Revolution
 
 let g:neocomplete#enable_at_startup = 1
+
+let g:alchemist#elixir_erlang_src = "/usr/local/Cellar/erlang/19.2"
+
 set backspace=indent,eol,start
 set number
+set showmatch
